@@ -1,0 +1,32 @@
+header {
+display: flex;
+justify-content: end;
+color: aliceblue;
+justify-content: space-between;
+
+
+}
+
+body {
+    background-color: black;
+}
+
+.ee {
+    /* position: absolute; */
+    height: 350px;
+    width: 300px;
+    left: 160px;
+    top: 100px;
+    color: aliceblue;
+}
+
+.text {
+    width: 200px;
+    height: 200px;
+}
+
+/* .right-side {
+    display: flex;
+    justify-content: right;
+    align-items: flex-start; */
+/* } */

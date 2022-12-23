@@ -1,0 +1,161 @@
+ body {
+    background-color: rgb(246, 250, 250);
+ }
+ 
+ 
+ .header {
+    display: flex;
+    justify-content: center;
+    /* width: 1200px;  */
+    border-bottom: 1px solid #828282;
+
+}   
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid #828282; */
+    padding: 32px 0;
+
+    
+}
+
+.text {
+    color: rgb(5, 5, 5);
+    background-color: rgb(248, 248, 248);
+    font-family: 'Gilroy-Bold';
+    font-size: 50px;
+    /* height: 40px; */
+    /* width: 100px; */
+    display: flex;
+    justify-content: center;
+    width: 1260px;
+    /* transition: 2s; */
+    transition-duration: 1s;
+    transition-property: all;
+    
+}
+
+.text :hover {
+    transition-duration: 1s;
+    /* transition-property: all; */
+
+    /* width: 400px; */
+    background-color: rgb(5, 5, 5);
+    color: rgb(255, 254, 253);
+}
+
+.text2 {
+    font-size: 23px;
+    font-family: inherit;
+    display: flex;
+    justify-content: center;
+    transition-duration: unset;
+    color: black;
+    background-color: alicebluex;
+    /* transform: rotate(45deg); */
+}
+
+.text2 :hover {
+    transition-duration: 2s;
+    background-color: black;
+    color: brown;
+}
+
+
+
+.text3 {
+
+        font-size: 13px;
+        font-family: inherit;
+        display: flex;
+        justify-content: center;
+        transform: rotate(90deg);
+        width: 1830px;
+        height: 60px;
+        color   : rgb(4, 5, 5)    ;
+        transition-duration: 2s;
+        background-color: rgb(246, 248, 250);
+    }
+
+    .text3 :hover { 
+        transition-duration: 1s;
+        color: rgb(7, 222, 222);
+        background-color: black;
+
+    }
+
+.bishkek {
+    display: flex;
+    justify-content: space-around;
+    /* align-items: flex-end; */
+    transform: rotate(90deg);
+    color: black;
+    background-color: aliceblue;
+    /* background-color: blueviolet; */
+    width: 2200px;
+    font-family: 'Times New Roman', Times, serif;
+font-size: 100px;
+/* height: 200px; */
+transition-duration: 1s;
+}
+
+.bishkek :hover {
+    transition-duration: 3s;
+    color: blue;
+    background-color: black;
+}
+
+
+
+    .container {
+        /* background-color: rgb(249, 246, 246); */
+        font-size: 10px;
+        /* position: absolute; */
+        width: 1000px;
+        /* display: flex;    */
+        /* justify-content: space-around; */
+        /* align-items: flex-start; */
+        text-align: center;
+        position:absolute ;
+        top: 700px;
+        /* height: 3000px; */
+        color: black;
+        background-color: aliceblue;
+        transition-duration: 1s;
+    }
+
+    .container :hover {
+        transition-duration: 0.5s;
+        background-color: burlywood;
+        color: aliceblue;
+    }
+
+.skills {
+    color: black;
+    font-size: 50px;
+}
+
+.work {
+    color: black;
+    font-size: 20px;
+}
+
+
+.nav_link {
+    font-family: cursive;
+    padding: 30px;
+}
+
+.About {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    width: 40%;
+    margin: 0 auto  ;
+    padding: 50px;
+
+}
